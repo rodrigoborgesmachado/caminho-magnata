@@ -1,0 +1,69 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-snap-type: y mandatory;
+    overflow-x: hidden;
+}
+
+body {
+    background: #4A3F24;
+    color: #fff;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    scroll-snap-align: start;
+    padding: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.section1 {
+    background-image: url('/assets/section1.jpg');
+}
+
+.video-container {
+    margin-top: 52px;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+    border-radius: 8px;
+}
+
+.section2 {
+    background-image: url('/assets/section2.jpg');
+}
+
+.section3 {
+    background-image: url('/assets/section3.jpg');
+}
+
+.section4 {
+    background-image: url('/assets/section4.jpg');
+}
+
+.section5 {
+    background-image: url('/assets/section5.jpg');
+}
